@@ -1,0 +1,304 @@
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/poppins-v20-latin-500.woff2") format("woff2"), url("../fonts/poppins-v20-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-700 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  max-width: 1140px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media only screen and (max-width: 1140px) {
+  .container {
+    border: 1px solid black;
+    max-width: 378px;
+  }
+}
+
+.proccess {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-top: 52px;
+  overflow: hidden;
+}
+
+.proccess__container {
+  padding-left: 81px;
+  padding-right: 81px;
+  padding-bottom: 25px;
+}
+
+.proccess__container::before {
+  content: '';
+  display: block;
+  width: 2324px;
+  height: 778px;
+  background: linear-gradient(179.59deg, #EDEDED 0.35%, rgba(255, 255, 255, 0.0001) 99.63%);
+  border-radius: 50%;
+  position: absolute;
+  top: -52px;
+  left: -50%;
+}
+
+.proccess__content-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.proccess__text-wrapper {
+  max-width: 542px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #22343D;
+}
+
+.proccess__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.proccess__description {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.proccess__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 63px;
+}
+
+.proccess__list-item {
+  min-width: 390px;
+  margin-right: 178px;
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2F281E;
+}
+
+.proccess__list-item:nth-child(2n), .proccess__list-item:last-child {
+  margin-right: 0;
+}
+
+.proccess__list-item--app {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-left: auto;
+}
+
+.proccess__list-item--website {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.proccess__list-item--strategy {
+  margin-left: auto;
+}
+
+.proccess__img {
+  border-radius: 50%;
+}
+
+.proccess__img--care {
+  margin-right: 16px;
+}
+
+.proccess__img--app {
+  margin-left: 16px;
+}
+
+.proccess__img--strategy {
+  margin-right: 16px;
+}
+
+.proccess__img--website {
+  margin-left: 16px;
+}
+
+.proccess__item-description {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 26px;
+  background-color: #FFFFFF;
+}
+
+.proccess__item-description--care {
+  padding-top: 15px;
+  padding-bottom: 14px;
+  padding-left: 25px;
+  padding-right: 24px;
+}
+
+.proccess__item-description--app {
+  padding: 15px 18px 14px 22px;
+}
+
+.proccess__item-description--website {
+  padding: 15px 30px 14px 33px;
+}
+
+.proccess__item-description--strategy {
+  padding: 14px 19px 15px 23px;
+}
+
+.proccess__link {
+  padding: 15px 31px 14px 30px;
+  background-color: #02897A;
+  border-radius: 4px;
+  color: #FFFFFF;
+  margin-left: 370px;
+}
+
+@media only screen and (max-width: 1140px) {
+  .proccess {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding-top: 73px;
+  }
+  .proccess__container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+  .proccess__container::before {
+    content: '';
+    display: block;
+    width: 1208px;
+    height: 250px;
+    background: linear-gradient(179.59deg, #EDEDED 0.35%, rgba(255, 255, 255, 0.0001) 99.63%);
+    border-radius: 50%;
+    position: absolute;
+    top: -73px;
+    left: -50%;
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+  }
+  .proccess__text-wrapper {
+    max-width: 348px;
+    margin-bottom: 40px;
+  }
+  .proccess__title {
+    margin-bottom: 8px;
+  }
+  .proccess__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 47px;
+  }
+  .proccess__list-item {
+    min-width: 342px;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+  .proccess__list-item:last-child {
+    margin-bottom: 0;
+  }
+  .proccess__list-item--app {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: auto;
+  }
+  .proccess__list-item--website {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .proccess__list-item--strategy {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-left: auto;
+  }
+  .proccess__link {
+    margin-left: 80px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
